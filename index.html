@@ -2,105 +2,133 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Divine-test1</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Divine-test1</title>
 </head>
 
 <body>
-    <div class="topnav">
-            <div class="container">
-                <div class="logo_div">
-                    <img src="logo.svg" alt="Testdome Logo" class="logo">
+  <div class="topnav">
+    <div class="container">
+      <div class="logo_div">
+        <img src="logo.svg" alt="Testdome Logo" class="logo">
+      </div>
+    </div>
+    <div class="navbar_list">
+      <ul class="menu">
+        <li><a href="#">Tour</a></li>
+        <li><a href="#">Tests</a></li>
+        <li><a href="#">Questions</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">For Jobseekers</a></li>
+        <li><a href="#">Sign in</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="name_mail">
+    <p class="name">Peter Gibbons</p>
+    <p class="email">send.email.4.programmer.joke@gmail.com</p>
+  </div>
+
+  <div class="div3">
+    <div class="result">
+      <h3>RESULT</h3>
+      <h5>STATUS: <span id="pass">PASS</span></h5>
+      <h5>TIME: <span id="min">7min</span></h5>
+    </div>
+
+    <div class="circontainer">
+      <div class="guage">
+        <svg class="guagedes" viewBox="0 0 150 150">
+          <circle class="rail" r="67" cx="75" cy="75"></circle>
+
+          <circle class="progress" r="67" data-target="80" cx="75" cy="75"></circle>
+        </svg>
+
+        <span class="center pcent">
+          <p>TOTAL</p>
+          <h2 class="value">80%</h2>
+        </span>
+      </div>
+    </div>
+
+    <div class="breakdown">
+      <h3>BREAKDOWN</h3>
+      <div>
+        <table class="table1">
+          <colgroup>
+            <col style="width: 10%;">
+            <col style="width: 80%;">
+            <col style="width: 5%;">
+            <col style="width: 5%;">
+          </colgroup>
+
+          <tbody>
+            <tr class="firstRow">
+              <td style="padding-bottom: 1em;">C#</td>
+              <td style="padding-bottom: 1em;">
+                <div class="bar">
+                  <div class="pbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width: 33%;"></div>
                 </div>
-            </div>
-            <div class="navbar_list">
-                <ul class="menu">
-                    <li><a href="#">Tour</a></li>
-                    <li><a href="#">Tests</a></li>
-                    <li><a href="#">Questions</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Blogs</a></li>
-                    <li><a href="#">For Jobseekers</a></li>
-                    <li><a href="#">Sign in</a></li>
-                </ul>
-            </div>
-    </div>
-
-    <div class="name_mail">
-        <p class="name">Peter Gibbons</p>
-        <p class="email">send.email.4.programmer.joke@gmail.com</p>
-    </div>
-
-    <div class="div3">
-        <div class="result">
-            <h3>RESULT</h3>
-            <h5>STATUS: <span id="pass">PASS</span></h5>
-            <h5>TIME: <span id="min">7min</span></h5>
-        </div>
-
-        <div class="circontainer">
-            <div class="guage">
-                <svg class="guagedes" viewBox="0 0 150 150">
-                    <circle class="rail" r="67" cx="75" cy="75"></circle>
-     
-                    <circle class="progress" r="67" data-target="80" cx="75" cy="75"></circle>
-                </svg>
-                
-                <span class="center pcent">
-                 <p>TOTAL</p>   
-                 <h2 class="value">80%</h2>
-                </span>
-            </div>
-        </div>
-
-        <div class="breakdown">
-            <h3>BREAKDOWN</h3>
-            <div>
-              <table class="table">
-                <colgroup>
-                  <col style="width: 10%;">
-                  <col style="width: 80%;">
-                  <col style="width: 5%;">
-                  <col style="width: 5%;">
-                </colgroup>
-
-                <tbody>
-                  <tr class="firstRow">
-                    <td style="padding-bottom: 1em;">C#</td>
-                    <td style="padding-bottom: 1em;"><div class="bar"><div class="pbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width: 33%;"></div></div></td>
-                    <td style="padding-bottom: 1em;">33%</td>
-                  </tr>
-                  <tr>
-                    <td>HTML/CSS</td>
-                    <td><div class="bar"><div class="pbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div></div></td>
-                    <td>25%</td>
-                  </tr>
-                  <tr>
-                    <td>Software Engineering</td>
-                    <td><div class="bar"><div class="pbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div></div></td>
-                    <td>100%</td>
-                  </tr>
-                  <tr>
-                    <td>Quality Assurance</td>
-                    <td><div class="bar"><div class="pbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div></div></td>
-                    <td>100%</td>
-                  </tr>
-                  <tr>
-                    <td>Numerical Reasoning</td>
-                    <td><div class="bar"><div class="pbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div></div></td>
-                    <td>100%</td>
-                  </tr>
-                  <tr>
-                    <td>Other</td>
-                    <td><div class="bar"><div class="pbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div></div></td>
-                    <td>100%</td>
-                  </tr>
-                </tbody>
-              </table>
-                <!-- <ul>
+              </td>
+              <td style="padding-bottom: 1em;">33%</td>
+            </tr>
+            <tr>
+              <td>HTML/CSS</td>
+              <td>
+                <div class="bar">
+                  <div class="pbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;"></div>
+                </div>
+              </td>
+              <td>25%</td>
+            </tr>
+            <tr>
+              <td>Software Engineering</td>
+              <td>
+                <div class="bar">
+                  <div class="pbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                  </div>
+                </div>
+              </td>
+              <td>100%</td>
+            </tr>
+            <tr>
+              <td>Quality Assurance</td>
+              <td>
+                <div class="bar">
+                  <div class="pbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                  </div>
+                </div>
+              </td>
+              <td>100%</td>
+            </tr>
+            <tr>
+              <td>Numerical Reasoning</td>
+              <td>
+                <div class="bar">
+                  <div class="pbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                  </div>
+                </div>
+              </td>
+              <td>100%</td>
+            </tr>
+            <tr>
+              <td>Other</td>
+              <td>
+                <div class="bar">
+                  <div class="pbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                  </div>
+                </div>
+              </td>
+              <td>100%</td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- <ul>
                     <li>
                         <p>C#</p><span class="bar"><span class="c-sharp"></span></span>
                     </li>
@@ -125,23 +153,23 @@
                         <p>Other</p><span class="bar"><span class="other"></span></span>
                     </li>
                 </ul> -->
-            </div>
-        </div>
+      </div>
+    </div>
 
-        <div class="tabs">
-          <div class="navbar">
-            <button class="bar1"><strong>HISTORY</strong></button>
-            <button class="bar2"><strong>NOTES</strong></button>
-          </div>
+    <div class="tabs">
+      <div class="navbar">
+        <button class="bar1"><strong>HISTORY</strong></button>
+        <button class="bar2"><strong>NOTES</strong></button>
+      </div>
 
-          <div class="text">
-            <p><span class="dotLine">Test URL was created</span> on May 25,2016</p>
-            <p><span class="dotLine">Candidate started the test</span> on Jun 1, 2016</p>
-            <p><span class="dotLine">Candidate completed the test</span> on Jun 1, 2016</p>
-          </div>
-          
-          
-          <!-- <ul class="nav">
+      <div class="text">
+        <p><span class="dotLine">Test URL was created</span> on May 25,2016</p>
+        <p><span class="dotLine">Candidate started the test</span> on Jun 1, 2016</p>
+        <p><span class="dotLine">Candidate completed the test</span> on Jun 1, 2016</p>
+      </div>
+
+
+      <!-- <ul class="nav">
             <li class="history">
               <a href="#history"><strong>HISTORY</strong></a>
             </li>
@@ -149,93 +177,161 @@
               <a href="#notes"><strong>NOTES</strong></a>
             </li>
           </ul> -->
-        </div>
+    </div>
+  </div>
+
+  <div class="div4">
+    <div class="Ex_share">
+      <button type="button" class="export">Export</button>
+      &nbsp;
+      <button type="button" class="share">Share</button>
     </div>
 
-    <div class="div4">
-      <div class="Ex_share">
-        <button type="button" class="export">Export</button>
-        &nbsp; 
-        <button type="button" class="share">Share</button>
-      </div>
-
-      <br>
-      <br>
-      
-      <section>
-        <table>
-          <colgroup>
-            <col style="width: 10%;">
-            <col style="width: 25%;">
-            <col style="width: 10%;">
-            <col style="width: 15%;">
-            <col style="width: 15%;">
-            <col style="width: 15%;">
-            <col style="width: 10%;">
-          </colgroup>
-          <thead>
+    <section>
+      <table class="table2">
+        <colgroup>
+          <col style="width: 10%;">
+          <col style="width: 25%;">
+          <col style="width: 10%;">
+          <col style="width: 15%;">
+          <col style="width: 15%;">
+          <col style="width: 15%;">
+          <col style="width: 10%;">
+        </colgroup>
+        <thead>
           <tr>
             <th>ORDER</th>
-            <th>QUESTION/ANSWER (EXPAND ALL)</th>
-            <th>SCORE</th>
-            <th>TIME</th>
-            <th>TYPE</th>
-            <th id="max">MAX POINTS</th>
+            <th>
+              <div class="qanda">QUESTION/ANSWER</div>
+              <div class="expand"> (<a href="" class="explink">EXPAND ALL</a>)</div>
+            </th>
+            <th class="text-left">SCORE</th>
+            <th class="text-left">TIME</th>
+            <th class="text-center">TYPE</thclass="text-left">
+            <th class="text-center">MAX POINTS</th>
           </tr>
-          </thead>
-          <tr class="firstRow">
-            <td>1</th>
-            <td><a href=""><p style="color: #007bb8;"><strong>Q: A palindrome is a word th...</p><p style="color: #007bb8;">A: using System; public c...</p></a></td>
-            <td style="color: #007bb8;"><strong>33%</strong></td>
-            <td><p><strong>1min 26sec</strong></p><p>(expected 10min)</p></td>
-            <td>CODE</td>
-            <td>3 points</td>
-          </tr>
-          <tr class="firstRow">
-            <td>2</th>
-            <td>QUESTION/ANSWER (EXPAND ALL)</td>
-            <td>SCORE</td>
-            <td>TIME</td>
-            <td>TYPE</td>
-            <td>MAX POINTS</td>
-          </tr>
-          <tr class="firstRow">
-            <td>3</th>
-            <td>QUESTION/ANSWER (EXPAND ALL)</td>
-            <td>SCORE</td>
-            <td>TIME</td>
-            <td>TYPE</td>
-            <td>MAX POINTS</td>
-          </tr>
-          <tr class="firstRow">
-            <td>4</th>
-            <td>QUESTION/ANSWER (EXPAND ALL)</td>
-            <td>SCORE</td>
-            <td>TIME</td>
-            <td>TYPE</td>
-            <td>MAX POINTS</td>
-          </tr>
-          <tr class="firstRow">
-            <td>5</th>
-            <td>QUESTION/ANSWER (EXPAND ALL)</td>
-            <td>SCORE</td>
-            <td>TIME</td>
-            <td>TYPE</td>
-            <td>MAX POINTS</td>
-          </tr>
-          <tr class="firstRow">
-            <td>6</th>
-            <td>QUESTION/ANSWER (EXPAND ALL)</td>
-            <td>SCORE</td>
-            <td>TIME</td>
-            <td>TYPE</td>
-            <td>MAX POINTS</td>
-          </tr>
-        </table>
-      </section>
-    </div>
+        </thead>
 
-   
+        <tbody>
+          <tr class="row1">
+            <td class="text-center">1</td>
+            <td class="text-left"><a href=""><strong>Q: A palindrome is a word th...</strong><br>A: using System; public
+                c...</a></td>
+            <td style="color: #007bb8;">
+              <strong>33%</strong><br>
+              <div class="probar">
+                <div class="proprobar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width: 33%;">
+                </div>
+              </div>
+            </td>
+            <td>
+              <p><strong>1min 26sec</strong></p>
+              <p>(expected 10min)</p>
+            </td>
+            <td class="text-center"><abbr>CODE</abbr></td>
+            <td class="text-center">3 points</td>
+          </tr>
+
+          <tr class="row1">
+            <td class="text-center">2</td>
+            <td class="text-left"><a href=""><strong>Q: Fix the bugs in the follo...</strong><br>A: !DOCTYPE html html...
+                </a></td>
+            <td style="color: #007bb8;">
+              <strong>25%</strong><br>
+              <div class="probar">
+                <div class="proprobar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+                </div>
+              </div>
+            </td>
+            <td>
+              <p><strong>46sec</strong></p>
+              <p>(expected 10min)</p>
+            </td>
+            <td class="text-center"><abbr>CODE</abbr></td>
+            <td class="text-center">3 points</td>
+          </tr>
+
+          <tr class="row1">
+            <td class="text-center">3</td>
+            <td class="text-left"><a href=""><strong>Q: Write down a sequence of...</strong><br>A: clone add commit push
+                </a></td>
+            <td style="color: #007bb8;">
+              <strong>100%</strong><br>
+              <div class="probar">
+                <div class="proprobar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                </div>
+              </div>
+            </td>
+            <td>
+              <p><strong>3min 58sec</strong></p>
+              <p>(expected 6min)</p>
+            </td>
+            <td class="text-center"><abbr>FILL</abbr></td>
+            <td class="text-center">3 points</td>
+          </tr>
+
+          <tr class="row1">
+            <td class="text-center">4</td>
+            <td class="text-left"><a href=""><strong>Q: Your team is developing s...</strong><br>A: Test case 1(Step 1 (Meas...
+                </a></td>
+            <td style="color: #007bb8;">
+              <strong>100%</strong><br>
+              <div class="probar">
+                <div class="proprobar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                </div>
+              </div>
+            </td>
+            <td>
+              <p><strong>3min</strong></p>
+              <p>(expected 7min)</p>
+            </td>
+            <td class="text-center"><abbr>QA</abbr></td>
+            <td class="text-center">3 points</td>
+          </tr>
+
+          <tr class="row1">
+            <td class="text-center">5</td>
+            <td class="text-left"><a href=""><strong>Q: A class inherits a base c...</strong><br>A: The base class can be abs...
+                </a></td>
+            <td style="color: #007bb8;">
+              <strong>100%</strong><br>
+              <div class="probar">
+                <div class="proprobar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                </div>
+              </div>
+            </td>
+            <td>
+              <p><strong>2min</strong></p>
+              <p>(expected 2min)</p>
+            </td>
+            <td class="text-center"><abbr>MCA</abbr></td>
+            <td class="text-center">3 points</td>
+          </tr>
+          
+          <tr class="row1">
+            <td class="text-center">6</td>
+            <td class="text-left"><a href=""><strong>Q: The charts below show the...</strong><br>A: Q2
+                </a></td>
+            <td style="color: #007bb8;">
+              <strong>100%</strong><br>
+              <div class="probar">
+                <div class="proprobar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                </div>
+              </div>
+            </td>
+            <td>
+              <p><strong>1min 3sec</strong></p>
+              <p>(expected 5min)</p>
+            </td>
+            <td class="text-center"><abbr>MCQ</abbr></td>
+            <td class="text-center">6 points</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+
+
 
 </body>
 

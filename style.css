@@ -191,7 +191,7 @@ h5 {
     padding-bottom: 1em;
 } */
 
-table {
+table1 {
     width: 100%;
     max-width: 100%;
     margin-left: -50px;
@@ -209,7 +209,6 @@ tr {
 }
 
 .bar {
-    
     height: 7px;
     background-color: #ababab;
     margin: 8px;
@@ -313,11 +312,11 @@ tr {
     background-color: #005985;
 }
 
-table {
+.table2 {
     clear: both;
     /* margin-right: -5px; */
     margin-left: 10%;
-    width: 100%;
+    width: 120%;
     /* margin-top: 50%; */
     border-collapse: collapse;
     border-color: grey;
@@ -331,15 +330,81 @@ th {
     font-family: sans-serif;
     color: #525252;
     padding-top: 30px;
+    padding-bottom: 8px;
     border-bottom: 2px solid rgb(221, 221, 221);
 }
 
-.firstRow {
-    font-family: sans-serif;
+.qanda {
+    float: left;
 }
+
+.expand {
+    display: inline;
+    margin-left: -50px;
+}
+
+.explink {
+    text-decoration: none;
+    color: #007bb8;
+} 
+
+.explink:hover {
+    color: #00486c;
+    text-decoration: underline;
+}
+
+/* .firstRow {
+    font-family: sans-serif;
+} */
 
 section {
     display: block;
+    margin-left: 3%;
+    width: 93%;
 }
 
+.text-left {
+    text-align: left;
+}
 
+.text-center {
+    text-align: center;
+}
+
+.row1 {
+    height: 70px;
+    font-family: sans-serif;
+    background-color: rgba(238, 238, 238, 0.856);
+    border-bottom: 1px solid #ababab;
+}
+
+.row1:hover {
+    background-color: #dddddd
+}
+
+.row1 td a {
+    color: #007bb8;
+    text-decoration: none;
+}
+
+.row1 td a:hover {
+    color: #00486c;
+    text-decoration: underline;
+}
+
+abbr {
+    border-bottom: 1px dotted #525252;
+}
+
+.probar {
+    width: 50%;
+    height: 7px;
+    background-color: #ababab;
+    margin: 8px 0 8px 0;
+}
+
+.proprobar {
+    height: 7px;
+    background-color: #06dae6;
+    
+}
